@@ -1,4 +1,4 @@
-import { read, close } from "../util/readline";
+import { read, close } from "../../util/readline";
 import { tiposDado, lancaDado } from "./sorteia";
 
 async function main() {

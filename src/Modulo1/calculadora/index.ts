@@ -1,5 +1,5 @@
 import { calcula, Operador } from "./operacoes"
-import { read, close } from "../util/readline";
+import { read, close } from "../../util/readline";
 
 
 
