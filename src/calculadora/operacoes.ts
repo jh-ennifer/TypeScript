@@ -1,8 +1,8 @@
 export type Operador = "+" | "-" | "/" | "*" 
 
-export function calcula(primeiroValor :number, operador: Operador, segundoValor: number) :String{
-	let resultado :String = primeiroValor + operador + segundoValor + " = ";
-	let calculo :Number = 0
+export function calcula(primeiroValor: number, operador: Operador, segundoValor: number): String{
+	let resultado: String = primeiroValor + operador + segundoValor + " = ";
+	let calculo: Number = 0
 	switch (operador) {
 		case "+":
 			calculo = primeiroValor + segundoValor

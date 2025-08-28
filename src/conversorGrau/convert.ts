@@ -1,4 +1,4 @@
-export function converter(valor :number, tipo :String) {
+export function converter(valor: number, tipo: String) {
   if (tipo === "CtoF") {
     return (valor * 9) / 5 + 32;
   } else if (tipo === "FtoC") {
